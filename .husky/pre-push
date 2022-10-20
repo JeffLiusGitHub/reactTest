@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm test -- --watchAll=false
+
+# npx husky add .husky/pre-push "npm test -- --watchAll=false"
