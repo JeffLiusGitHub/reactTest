@@ -1,6 +1,6 @@
-import { render, screen } from '../../test-utils'
+import { render, screen } from '../../test-utils';
 // import { render, screen } from '@testing-library/react'
-import { MuiMode } from './MuiMode'
+import { MuiMode } from './MuiMode';
 // import { AppProviders } from '../../providers/AppProviders'
 describe('Mui', () => {
   test('renders text correctly', () => {
@@ -9,12 +9,12 @@ describe('Mui', () => {
       //  {
       //   wrapper: AppProviders,
       // }
-    )
-    const headingElement = screen.getByRole('heading')
+    );
+    const headingElement = screen.getByRole('heading');
 
-    expect(headingElement).toHaveTextContent('dark mode')
-  })
-})
+    expect(headingElement).toHaveTextContent('dark mode');
+  });
+});
 
 // describe('MuiMode', () => {
 //   test('renders text correctly', () => {
